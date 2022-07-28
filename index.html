@@ -371,8 +371,8 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row gx-5">
+                <div class="col-lg-6 border border-1 rounded-1">
                     <div>
                         <img src="images/comma.png" alt="">
                         <p>*****</p>
@@ -386,7 +386,7 @@
                         </div>                        
                     </div>                    
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 border border-1 rounded-1">
                     <div>
                         <img src="images/comma.png" alt="">
                         <p>*****</p>
@@ -416,54 +416,138 @@
             </div>
             <div class="col-lg-8 accordion" id="accordionExample">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      What are the differences between flexbox and grid?
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the differences between flexbox and grid?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Grid is made for two-dimensional layout while Flexbox is for one.</strong>
+                            <li><strong>Dimensionality and Flexibility:</strong></li>
+
+                            Flexbox offers greater control over alignment and space distribution between items. Being
+                            one-dimensional, Flexbox only deals with either columns or rows.
+                            Grid has two-dimension layout capabilities which allow flexible widths as a unit of length.
+                            This compensates for the limitations in Flex.
+                            <li><strong>Alignment:</strong></li>
+
+                            Flex Direction allows developers to align elements vertically or horizontally, which is used
+                            when developers create and reverse rows or columns.
+                            CSS Grid deploys fractional measure units for grid fluidity and auto-keyword functionality
+                            to automatically adjust columns or rows.
+                            <li><strong>Item Management</strong></li>
+
+                            Flex Container is the parent element while Flex Item represents the children. The Flex
+                            Container can ensure balanced representation by adjusting item dimensions. This allows
+                            developers to design for fluctuating screen sizes.
+                            Grid supports both implicit and explicit content placement. Its inbuilt automation allows it
+                            to automatically extend line items and copy values into the new creation from the preceding
+                            item.
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      What is the differences between Bootstrap and Tailwind?
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is the differences between Bootstrap and Tailwind?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Bootstrap and Tailwind CSS can be categorized as "Front-End Frameworks"
+                                tools.</strong>
+                            <p><br>Some of the features offered by Bootstrap are:</p>
+
+                            <li><strong>Preprocessors:</strong> Bootstrap ships with vanilla CSS, but its source code
+                                utilizes the two most popular CSS preprocessors, Less and Sass. Quickly get started with
+                                precompiled CSS or build on the source.</li>
+                            <li><strong>One framework, every device:</strong> Bootstrap easily and efficiently scales
+                                your websites and applications with a single code base, from phones to tablets to
+                                desktops with CSS media queries.</li>
+                            <li><strong>Full of features:</strong> With Bootstrap, you get extensive and beautiful
+                                documentation for common HTML elements, dozens of custom HTML and CSS components, and
+                                awesome jQuery plugins.</li><br>
+
+                            <p>On the other hand, Tailwind CSS provides the following key features:</p>
+
+                            <li>No default theme</li>
+                            <li>No build-in UI components</li>
+                            <li>No opinion about how your site should look</li>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      What is CSS box model?
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is CSS box model?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>The CSS box model</strong> is a container that contains multiple properties
+                            including borders, margin, padding, and the content itself. It is used to create the design
+                            and layout of web pages. It can be used as a toolkit for customizing the layout of different
+                            elements. The web browser renders every element as a rectangular box according to the CSS
+                            box model. Box-Model has multiple properties in CSS. Some of them are given below:
+
+                            <li><strong>Content:</strong> This property is used to displays the text, images, etc, that
+                                can be sized using the width & height property.</li>
+                            <li><strong>Padding:</strong> This property is used to create space around the element,
+                                inside any defined border.</li>
+                            <li><strong>Border:</strong> This property is used to cover the content & any padding, &
+                                also allows to set the style, color, and width of the border.</li>
+                            <li><strong>Margin:</strong> This property is used to create space around the element ie.,
+                                around the border area.</li>
+                            <li><strong>Content Area:</strong> This area consists of content like text, images, or other
+                                media content. It is bounded by the content edge and its dimensions are given by
+                                content-box width and height.</li>
+                            <li><strong>Padding Area:</strong> It includes the element’s padding. This area is actually
+                                the space around the content area and within the border-box. Its dimensions are given by
+                                the width of the padding-box and the height of the padding-box.</li>
+                            <li><strong>Border Area:</strong> It is the area between the box’s padding and margin. Its
+                                dimensions are given by the width and height of the border.</li>
+                            <li><strong>Margin Area:</strong> This area consists of space between border and margin. The
+                                dimensions of the Margin area are the margin-box width and the margin-box height. It is
+                                useful to separate the element from its neighbors.</li>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFour">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        What is cemantic tag?
-                      </button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What is cemantic tag?
+                        </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>The HTML semantics</strong> refers to the tags that provide meaning to an HTML page
+                            rather than just presentation. It makes HTML more comprehensible by better defining the
+                            different sections and layout of web pages.
+                            The core characteristic of a semantic element is that it clearly communicated its meaning to
+                            both the developer and the browser. These elements clearly define its content.
+                            <br>
+                            <strong>HTML Semantic Tag Structure:</strong>
+                            The following HTML tags can be used to break your page into identified parts:
+                            <li><strong>header:</strong> It defines a header for a web page.</li>
+                            <li><strong>nav:</strong> It defines a container for navigation links.</li>
+                            <li><strong>section:</strong> This defines a section in a web page.</li>
+                            <li><strong>article:</strong> This element contains the main part, containing information
+                                about the web page.</li>
+                            <li><strong>aside:</strong> The content is often placed as a sidebar in a document.</li>
+                            <li><strong>footer:</strong> It defines a footer for a document or a section.</li>
+                        </div>
                     </div>
-                  </div>
-              </div>
+                </div>
+            </div>
         </section>
         <!-- FAQ Section End -->
 
@@ -490,11 +574,11 @@
 
     <!-- Footer Section Start -->
     <footer>
-        <section class="footer-area bg-black p-5">
+        <section class="footer-area bg-black py-5">
             <div class="row d-flex justify-content-center mb-5">
                 <div class="col-lg-6 mx-5 px-5">
                     <div class="text-center text-white">
-                        <h2>BeCoder</h2>
+                        <h1>BeCoder</h1>
                         <address>26/1, Rajballavpur, Sherpur,<br>Bangladesh</address>
                     </div>
                     <div class="footer-menu">
@@ -503,12 +587,12 @@
                             |<li class="list-unstyled px-1"><a class="text-decoration-none text-white" href="">Terms of Use</a></li>
                         </ul>
                     </div>
-                    <div class="social-icon text-white">
+                    <div class="social-icon">
                         <ul class="d-flex justify-content-center pe-5">
-                            <li class="list-unstyled px-3"><a class="text-white" href="https://www.youtube.com/c/MonabberHossain"><i class="fa-brands fa-youtube"></i></a></li>
-                            <li class="list-unstyled px-3"><a class="text-white" href="https://www.facebook.com/monabber.hossain/"><i class="fa-brands fa-facebook-square"></i></a></li>
-                            <li class="list-unstyled px-3"><a class="text-white" href="https://www.instagram.com/monabbermunai/"><i class="fa-brands fa-instagram-square"></i></a></li>                
-                            <li class="list-unstyled px-3"><a class="text-white" href="https://twitter.com/HossainMonabber"><i class="fa-brands fa-twitter-square"></i></a></li>
+                            <li class="list-unstyled px-2"><a class="text-white" href="https://www.youtube.com/c/MonabberHossain"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="list-unstyled px-2"><a class="text-white" href="https://www.facebook.com/monabber.hossain/"><i class="fa-brands fa-facebook-square"></i></a></li>
+                            <li class="list-unstyled px-2"><a class="text-white" href="https://www.instagram.com/monabbermunai/"><i class="fa-brands fa-instagram-square"></i></a></li>                
+                            <li class="list-unstyled px-2"><a class="text-white" href="https://twitter.com/HossainMonabber"><i class="fa-brands fa-twitter-square"></i></a></li>
                         </ul>
                     </div>
                 </div>

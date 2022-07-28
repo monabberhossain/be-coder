@@ -20,3 +20,7 @@ section{
 .col-lg-8{
     margin: 0 auto;
 }
+
+.social-icon ul li:hover a i{
+    color: #289BDE;
+}
