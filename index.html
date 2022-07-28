@@ -30,10 +30,10 @@
     <header class="mb-5">
 
         <!-- Navigation Part Start -->
-        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
             <div class="container">
                 <div>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand fw-bolder text-white" href="#">
                         <h1>BeCoder</h1>
                     </a>
                 </div>
@@ -47,25 +47,28 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active fw-bold" aria-current="page" href="#slider">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#shoes">Cources</a>
+                                    <a class="nav-link" href="#courses">Courses</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#backpack">Deals</a>
+                                    <a class="nav-link" href="#explore">Explore</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#subscribe">Success</a>
+                                    <a class="nav-link" href="#success">Success</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#subscribe">About</a>
+                                    <a class="nav-link" href="#feedback">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#faq">FAQ</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div>
-                        <a>Register</a>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#register">Register</a>
                     </div>
                 </div>
             </div>
@@ -73,50 +76,47 @@
         <!-- Navigation Part End -->
 
         <!-- Slider Start -->
-        <div id="carouselExampleCaptions" class="container carousel slide" data-bs-ride="false">
+        <div id="slider" class="container carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block mb-5">
-                        <h2>Welcome To Home Of Party!</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis reprehenderit,
-                            sed dignissimos vitae maxime numquam quaerat.</p>
-                        <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">Get Started</a>
+                        <h2>Welcome To Home Of IT Courses!</h2>
+                        <p>This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist.</p>
+                        <a href="" class="my-btn btn btn-primary custom-bg text-white px-4 py-2 fw-bold">Get Started</a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/cover/cover-2.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block mb-5">
-                        <h2>Welcome To Home Of Party!</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis reprehenderit,
-                            sed dignissimos vitae maxime numquam quaerat.</p>
-                        <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">Get Started</a>
+                        <h2>Get Started Digital Learning!</h2>
+                        <p>Learn digital skills for free at your own pace, with personalised training designed to help you develop your career, market your business, and more.</p>
+                        <a href="" class="my-btn btn btn-primary custom-bg text-white px-4 py-2 fw-bold">Get Started</a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/cover/cover-3.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block mb-5">
-                        <h2>Welcome To Home Of Party!</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis reprehenderit,
-                            sed dignissimos vitae maxime numquam quaerat.</p>
-                        <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">Get Started</a>
+                        <h2>Get Started Remote Jobs!</h2>
+                        <p>Start your remote or work-from-home job search! — Go on LinkedIn to search for remote jobs at companies that interest you.</p>
+                        <a href="" class="my-btn btn btn-primary custom-bg text-white px-4 py-2 fw-bold">Get Started</a>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            <button class="carousel-control-next" type="button" data-bs-target="#slider"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
@@ -129,12 +129,13 @@
 
     <!-- Main Part Start -->
     <main>
-        <!-- Cource Section Start -->
-        <section class="container">
+        <!-- Course Section Start -->
+        <section id="courses" class="container">
             <div class="row d-flex justify-content-center mb-5">
                 <div class="col-lg-6 text-center mx-5 px-5">
                     <h1>Discover Our Popular<br> Courses</h1>
-                    <p>We created this collection to celebrate 7 years of learners and educators coming together to spread knowledge and transform lives. Thanks for being a part of the journey with us!</p>
+                    <p>We created this collection to celebrate 7 years of learners and educators coming together to
+                        spread knowledge and transform lives. Thanks for being a part of the journey with us!</p>
                 </div>
             </div>
             <div class="row">
@@ -142,12 +143,14 @@
                     <div class="card mb-4">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course/course-1.png" class="img-fluid img-custom rounded-start" alt="...">
+                                <img src="images/course/course-1.png" class="img-fluid img-custom rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Fundamental Of UI/UX</h5>
-                                    <p class="card-text">There are many important principles within UX design but to simplify things a bit.</p>
+                                    <p class="card-text">There are many important principles within UX design but to
+                                        simplify things a bit.</p>
                                     <p class="card-text">Price: $25</p>
                                 </div>
                             </div>
@@ -158,12 +161,14 @@
                     <div class="card mb-4">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course/course-2.png" class="img-fluid img-custom rounded-start" alt="...">
+                                <img src="images/course/course-2.png" class="img-fluid img-custom rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Javascript Basic to advanced</h5>
-                                    <p class="card-text">JavaScript is the programming language of the Web. JavaScript is easy to learn.</p>
+                                    <p class="card-text">JavaScript is the programming language of the Web. JavaScript
+                                        is easy to learn.</p>
                                     <p class="card-text">Price: $25</p>
                                 </div>
                             </div>
@@ -177,12 +182,14 @@
                     <div class="card mb-4">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course/course-3.png" class="img-fluid img-custom rounded-start" alt="...">
+                                <img src="images/course/course-3.png" class="img-fluid img-custom rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Fullstack Web Development</h5>
-                                    <p class="card-text">A full stack web developer is a person who can develop both client and server software.</p>
+                                    <p class="card-text">A full stack web developer is a person who can develop both
+                                        client and server software.</p>
                                     <p class="card-text">Price: $30</p>
                                 </div>
                             </div>
@@ -193,12 +200,14 @@
                     <div class="card mb-4">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course/course-4.png" class="img-fluid img-custom rounded-start" alt="...">
+                                <img src="images/course/course-4.png" class="img-fluid img-custom rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Digital Marketing</h5>
-                                    <p class="card-text">Digital marketing, also called online marketing, is the promotion of brands.</p>
+                                    <p class="card-text">Digital marketing, also called online marketing, is the
+                                        promotion of brands.</p>
                                     <p class="card-text">Price: $20</p>
                                 </div>
                             </div>
@@ -211,12 +220,14 @@
                     <div class="card">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course/course-5.png" class="img-fluid img-custom rounded-start" alt="...">
+                                <img src="images/course/course-5.png" class="img-fluid img-custom rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Photography Basic Rules</h5>
-                                    <p class="card-text">5 Basic Compositional Rules in Photography · Compositional Rules · Rule #1: Leading Lines</p>
+                                    <p class="card-text">5 Basic Compositional Rules in Photography · Compositional
+                                        Rules · Rule #1: Leading Lines</p>
                                     <p class="card-text">Price: $15</p>
                                 </div>
                             </div>
@@ -227,12 +238,14 @@
                     <div class="card">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course/course-6.png" class="img-fluid img-custom rounded-start" alt="...">
+                                <img src="images/course/course-6.png" class="img-fluid img-custom rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Motion Graphics</h5>
-                                    <p class="card-text">Motion graphics are pieces of animation or digital footage which create the illusion.</p>
+                                    <p class="card-text">Motion graphics are pieces of animation or digital footage
+                                        which create the illusion.</p>
                                     <p class="card-text">Price: $20</p>
                                 </div>
                             </div>
@@ -241,30 +254,30 @@
                 </div>
             </div>
             <div class="mt-5 text-center">
-                <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">See More Cources</a>
+                <a href="" class="my-btn btn btn-primary custom-bg text-white px-4 py-2 fw-bold">See More Courses</a>
             </div>
         </section>
-        <!-- Cource Section End -->
+        <!-- Course Section End -->
 
         <!-- Institute Section Start -->
-        <section class="container">
+        <section id="explore" class="container">
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-lg-5">
                         <img src="images/working.png" class="img-fluid img-custom rounded-start" alt="...">
                     </div>
-                    <div class="col-lg-7">
+                    <div class="d-flex justify-content-center align-items-center col-lg-7 custom-bg-2 p-5">
                         <div class="card-body">
-                            <h2 class="card-title">Card title</h2>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div>
-                                <p>3.2K+<span>Online Course</span></p>
-                                <p>600+<span>Expert member</span></p>
-                                <p>1k+<span>Rating & Review</span></p>
+                            <h2 class="card-title">Explore The Best Online Institute</h2>
+                            <p class="card-text">Start exploring BeCoder to build your career with more than 5,000 courses, Professional Certificates, and degrees with highly skilfull trainers and world-class lectures.</p>
+                            <p>Skill at discovering new ideas, and delivering them, may be one of the most important practical job skills, in today’s and tomorrow’s job market. Creativity is an acquired skill, one that improves with practice. This course aims to empower individuals who believe they have lost their innate creativity, because they, their employers or teachers prefer the three R's: replication, repetition and rote, to innovation.</p>
+                            <div class="d-flex">
+                                <h2 class="me-5 my-2">3.2K+<p class="fs-6 fw-normal">Online Course</p></h2>
+                                <h2 class="me-5 my-2">600+<p class="fs-6 fw-normal">Expert member</p></h2>
+                                <h2 class="me-5 my-2">1k+<p class="fs-6 fw-normal">Rating & Review</p></h2>
                             </div>
                             <div>
-                                <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">Read More
+                                <a href="" class="my-btn btn btn-primary custom-bg text-white px-4 py-2 fw-bold">Read More
                                     Articles</a>
                             </div>
                         </div>
@@ -275,45 +288,47 @@
         <!-- Institute Section End -->
 
         <!-- Register Section Start -->
-        <section class="container">
-            <div class="row bg-primary p-5 align-items-center rounded">
+        <section id="register" class="container">
+            <div class="row custom-bg p-5 align-items-center rounded">
                 <div class="text-lg-start text-md-start text-center col-lg-6 col-md-6">
                     <h1 class="">Redy to join?</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, nisi?</p>
                 </div>
                 <div class="col-lg-6 col-md-6 text-center text-lg-end text-md-end">
-                    <a type="button" href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold"  data-bs-toggle="modal" data-bs-target="#registerModal">Register Now</a>
+                    <a type="button" href="" class="my-btn btn bg-white custom-color px-4 py-2 fw-bold"
+                        data-bs-toggle="modal" data-bs-target="#registerModal">Register Now</a>
                 </div>
             </div>
-            <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+            <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="registerModalLabel">Please Register</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="registerModalLabel">Please Register</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <input type="email" name="email" id="email" placeholder="Your Email">
+                                <input type="password" name="password" id="password" placeholder="Your Password">
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary custom-bg">Submit</button>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                      <form action="">
-                        <input type="email" name="email" id="email" placeholder="Your Email">
-                        <input type="password" name="password" id="password" placeholder="Your Password">
-                      </form>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </section>
         <!-- Register Section End -->
 
         <!-- Student Section Start -->
-        <section class="container">
+        <section id="success" class="container">
             <div class="row d-flex justify-content-center mb-5">
                 <div class="col-lg-6 text-center mx-5 px-5">
                     <h1>Meet Our Successfull<br> Students</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus ea praesentium aliquid mollitia assumenda minima repudiandae illo, ullam maxime?
+                        We strongly feel that students' success is measured by their growing confidence in themselves throughout the course process. And Our students' success stories are here.
                     </p>
                 </div>
             </div>
@@ -329,83 +344,98 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/student/student-1.png" alt="">
+                        <img src="images/student/student-2.png" alt="">
                         <div class="card-body">
-                            <h5>Awlad Hossain</h5>
-                            <p>UI/UX Designer</p>
+                            <h5>Jannatun Naima</h5>
+                            <p>Motion Designer</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/student/student-1.png" alt="">
+                        <img src="images/student/student-3.png" alt="">
                         <div class="card-body">
-                            <h5>Awlad Hossain</h5>
-                            <p>UI/UX Designer</p>
+                            <h5>Imran Ashraf</h5>
+                            <p>Graphic Designer</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/student/student-1.png" alt="">
+                        <img src="images/student/student-4.png" alt="">
                         <div class="card-body">
-                            <h5>Awlad Hossain</h5>
-                            <p>UI/UX Designer</p>
+                            <h5>Nishi Dibanishi</h5>
+                            <p>Web Developer</p>
                         </div>
                     </div>
                 </div>
-            </div>            
+            </div>
             <div class="mt-5 text-center">
-                <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">View All Students</a>
-            </div>            
+                <a href="" class="my-btn btn btn-primary custom-bg text-white px-4 py-2 fw-bold">View All Students</a>
+            </div>
         </section>
         <!-- Student Section End -->
 
         <!-- Feedback Section Start -->
-        <section class="container">
+        <section id="feedback" class="container">
             <div class="row d-flex justify-content-center mb-5">
                 <div class="col-lg-6 text-center mx-5 px-5">
                     <h1>Some Students Feedback</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus ea praesentium aliquid mollitia assumenda minima repudiandae illo, ullam maxime?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus ea
+                        praesentium aliquid mollitia assumenda minima repudiandae illo, ullam maxime?
                     </p>
                 </div>
-            </div>
-            <div class="row gx-5">
-                <div class="col-lg-6 border border-1 rounded-1">
-                    <div>
-                        <img src="images/comma.png" alt="">
-                        <p>*****</p>
+            </div>            
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-12">
+                    <div class="border rounded-1 p-4">
+                        <div class="d-flex justify-content-between">
+                            <img src="images/comma.png" alt="">
+                            <p>
+                                <i class="fa-solid fa-star filled text-warning"></i>
+                                <i class="fa-solid fa-star filled text-warning"></i>
+                                <i class="fa-solid fa-star filled text-warning"></i>
+                                <i class="fa-solid fa-star filled text-warning"></i>
+                                <i class="fa-solid fa-star empty text-black-50"></i>
+                            </p>
+                        </div>
+                        <p>This course was short but very informative and very helpful for an aspiring leader like myself. It also helped me understand how to view or understand when I receive feedback. I enjoyed the course and learned a lot from it. The content is well organised and focused on practical situations. I highly recommend it!!</p>
+                        <div class="d-flex">
+                            <img class="px-3" src="images/student/student-5.png" alt="">
+                            <div>
+                                <h5>Faheem Hasan<small class="fs-6 fw-lighter"><br>UI Designer</small></h5>
+                            </div>
+                        </div>
                     </div>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
-                    <div>                        
-                        <img src="images/student/student-5.png" alt="">
-                        <div>
-                            <h5>Faheem Hasan</h5>
-                            <p>UI Designer</p>
-                        </div>                        
-                    </div>                    
                 </div>
-                <div class="col-lg-6 border border-1 rounded-1">
-                    <div>
-                        <img src="images/comma.png" alt="">
-                        <p>*****</p>
+                <div class="col-lg-6 col-md-12">
+                    <div class="border rounded-1 p-4">
+                        <div class="d-flex justify-content-between">
+                            <img src="images/comma.png" alt="">
+                            <p>
+                                <i class="fa-solid fa-star filled text-warning"></i>
+                                <i class="fa-solid fa-star filled text-warning"></i>
+                                <i class="fa-solid fa-star filled text-warning"></i>
+                                <i class="fa-solid fa-star filled text-warning"></i>
+                                <i class="fa-solid fa-star empty text-black-50"></i>
+                            </p>
+                        </div>
+                        <p>This is the BEST online course I've taken on BeCoder - or any other online platform for that matter. I appreciate the care taken to script each lesson and I also like the animation that kept me engaged. There's nothing worse than listening to an instructor who's not even prepared and is "just sitting there" in front of a camera.</p>
+                        <div class="d-flex">
+                            <img class="px-3" src="images/student/student-6.png" alt="">
+                            <div>
+                                <h5>Jerin Khan<small class="fs-6 fw-lighter"><br>Graphic Designer</small></h5>
+                            </div>
+                        </div>
                     </div>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
-                    <div>                        
-                        <img src="images/student/student-6.png" alt="">
-                        <div>
-                            <h5>Jerin Khan</h5>
-                            <p>Graphic Designer</p>
-                        </div>                        
-                    </div>                    
                 </div>
             </div>
         </section>
         <!-- Feedback Section End -->
 
         <!-- FAQ Section Start -->
-        <section class="container">
+        <section id="faq" class="container">
             <div class="row d-flex justify-content-center mb-5">
                 <div class="col-lg-6 text-center mx-5 px-5">
                     <h1>Frequently Asked Questions</h1>
@@ -463,9 +493,9 @@
                                 tools.</strong>
                             <p><br>Some of the features offered by Bootstrap are:</p>
 
-                            <li><strong>Preprocessors:</strong> Bootstrap ships with vanilla CSS, but its source code
+                            <li><strong>Preprocessors:</strong> Bootstrap ships with vanilla CSS, but its sourse code
                                 utilizes the two most popular CSS preprocessors, Less and Sass. Quickly get started with
-                                precompiled CSS or build on the source.</li>
+                                precompiled CSS or build on the sourse.</li>
                             <li><strong>One framework, every device:</strong> Bootstrap easily and efficiently scales
                                 your websites and applications with a single code base, from phones to tablets to
                                 desktops with CSS media queries.</li>
@@ -555,7 +585,7 @@
         <section class="container d-none d-lg-block d-xl-block">
             <div class="row d-flex justify-content-center mb-5">
                 <div class="col-lg-6 text-center">
-                    <h1>Trusted by over 800+ companies</h1>                    
+                    <h1>Trusted by over 800+ companies</h1>
                 </div>
                 <p class="text-center mt-3">
                     <span class="px-4"><img src="images/company/company-1.png" alt=""></span>
@@ -567,7 +597,7 @@
                 </p>
             </div>
         </section>
-        <!--Company Section End --> 
+        <!--Company Section End -->
 
     </main>
     <!-- Main Part End -->
@@ -583,16 +613,26 @@
                     </div>
                     <div class="footer-menu">
                         <ul class="d-flex justify-content-center pe-5 text-white">
-                            <li class="list-unstyled px-1"><a class="text-decoration-none text-white" href="">Privacy Policy</a></li>
-                            |<li class="list-unstyled px-1"><a class="text-decoration-none text-white" href="">Terms of Use</a></li>
+                            <li class="list-unstyled px-1"><a class="text-decoration-none text-white" href="">Privacy
+                                    Policy</a></li>
+                            |<li class="list-unstyled px-1"><a class="text-decoration-none text-white" href="">Terms of
+                                    Use</a></li>
                         </ul>
                     </div>
                     <div class="social-icon">
                         <ul class="d-flex justify-content-center pe-5">
-                            <li class="list-unstyled px-2"><a class="text-white" href="https://www.youtube.com/c/MonabberHossain"><i class="fa-brands fa-youtube"></i></a></li>
-                            <li class="list-unstyled px-2"><a class="text-white" href="https://www.facebook.com/monabber.hossain/"><i class="fa-brands fa-facebook-square"></i></a></li>
-                            <li class="list-unstyled px-2"><a class="text-white" href="https://www.instagram.com/monabbermunai/"><i class="fa-brands fa-instagram-square"></i></a></li>                
-                            <li class="list-unstyled px-2"><a class="text-white" href="https://twitter.com/HossainMonabber"><i class="fa-brands fa-twitter-square"></i></a></li>
+                            <li class="list-unstyled px-2"><a class="text-white"
+                                    href="https://www.youtube.com/c/MonabberHossain"><i
+                                        class="fa-brands fa-youtube"></i></a></li>
+                            <li class="list-unstyled px-2"><a class="text-white"
+                                    href="https://www.facebook.com/monabber.hossain/"><i
+                                        class="fa-brands fa-facebook-square"></i></a></li>
+                            <li class="list-unstyled px-2"><a class="text-white"
+                                    href="https://www.instagram.com/monabbermunai/"><i
+                                        class="fa-brands fa-instagram-square"></i></a></li>
+                            <li class="list-unstyled px-2"><a class="text-white"
+                                    href="https://twitter.com/HossainMonabber"><i
+                                        class="fa-brands fa-twitter-square"></i></a></li>
                         </ul>
                     </div>
                 </div>
