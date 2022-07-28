@@ -1,0 +1,22 @@
+.custom-bg{
+    background-color: #289BDE;
+}
+.custom-color{
+    color: #289BDE;
+}
+.custom-width{
+    width: 50%;
+    max-width: 100%;
+}
+section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.img-custom{
+    min-width: 100%;
+}
+
+.col-lg-8{
+    margin: 0 auto;
+}

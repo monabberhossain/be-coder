@@ -1,25 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CDN Link: CSS file -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <!-- Google Font Links: Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/d8b67d35e7.js" crossorigin="anonymous"></script>
+
     <!-- Custom Stylesheet Link: CSS File -->
     <link rel="stylesheet" href="styles/style.css">
-    
-    <title>Be Coder | Learn Coding Easily</title>
+
+    <title>BeCoder | Learn Coding Easily</title>
 </head>
+
 <body>
+
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <h1>BeCoder</h1>
+                    </a>
+                </div>
+                <div class="d-flex .flex-md-row-reverse">
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#shoes">Cources</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#backpack">Deals</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#subscribe">Success</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#subscribe">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <a>Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleCaptions" class="container carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-5">
+                        <h2>Welcome To Home Of Party!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis reprehenderit,
+                            sed dignissimos vitae maxime numquam quaerat.</p>
+                        <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">Get Started</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/cover-2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-5">
+                        <h2>Welcome To Home Of Party!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis reprehenderit,
+                            sed dignissimos vitae maxime numquam quaerat.</p>
+                        <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">Get Started</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/cover-3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-5">
+                        <h2>Welcome To Home Of Party!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis reprehenderit,
+                            sed dignissimos vitae maxime numquam quaerat.</p>
+                        <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="row d-flex justify-content-center mb-5">
+                <div class="col-lg-6 text-center mx-5 px-5">
+                    <h1>Discover Our Popular<br> Courses</h1>
+                    <p>We created this collection to celebrate 7 years of learners and educators coming together to spread knowledge and transform lives. Thanks for being a part of the journey with us!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-1.png" class="img-fluid img-custom rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX</h5>
+                                    <p class="card-text">There are many important principles within UX design but to simplify things a bit.</p>
+                                    <p class="card-text">Price: $25</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-2.png" class="img-fluid img-custom rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Javascript Basic to advanced</h5>
+                                    <p class="card-text">JavaScript is the programming language of the Web. JavaScript is easy to learn.</p>
+                                    <p class="card-text">Price: $25</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-3.png" class="img-fluid img-custom rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fullstack Web Development</h5>
+                                    <p class="card-text">A full stack web developer is a person who can develop both client and server software.</p>
+                                    <p class="card-text">Price: $30</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-4.png" class="img-fluid img-custom rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Digital Marketing</h5>
+                                    <p class="card-text">Digital marketing, also called online marketing, is the promotion of brands.</p>
+                                    <p class="card-text">Price: $20</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-5.png" class="img-fluid img-custom rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Photography Basic Rules</h5>
+                                    <p class="card-text">5 Basic Compositional Rules in Photography · Compositional Rules · Rule #1: Leading Lines</p>
+                                    <p class="card-text">Price: $15</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-6.png" class="img-fluid img-custom rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Motion Graphics</h5>
+                                    <p class="card-text">Motion graphics are pieces of animation or digital footage which create the illusion.</p>
+                                    <p class="card-text">Price: $20</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 text-center">
+                <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">See More Cources</a>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-lg-5">
+                        <img src="images/working.png" class="img-fluid img-custom rounded-start" alt="...">
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card-body">
+                            <h2 class="card-title">Card title</h2>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div>
+                                <p>3.2K+<span>Online Course</span></p>
+                                <p>600+<span>Expert member</span></p>
+                                <p>1k+<span>Rating & Review</span></p>
+                            </div>
+                            <div>
+                                <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">Read More
+                                    Articles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row bg-primary p-5 align-items-center rounded">
+                <div class="text-lg-start text-md-start text-center col-lg-6 col-md-6">
+                    <h1 class="">Redy to join?</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, nisi?</p>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center text-lg-end text-md-end">
+                    <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">Register Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row d-flex justify-content-center mb-5">
+                <div class="col-lg-6 text-center mx-5 px-5">
+                    <h1>Meet Our Successfull<br> Students</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus ea praesentium aliquid mollitia assumenda minima repudiandae illo, ullam maxime?
+                    </p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-1.png" alt="">
+                        <div class="card-body">
+                            <h5>Awlad Hossain</h5>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-1.png" alt="">
+                        <div class="card-body">
+                            <h5>Awlad Hossain</h5>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-1.png" alt="">
+                        <div class="card-body">
+                            <h5>Awlad Hossain</h5>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-1.png" alt="">
+                        <div class="card-body">
+                            <h5>Awlad Hossain</h5>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="mt-5 text-center">
+                <a href="" class="my-btn btn btn-primary text-white px-4 py-2 fw-bold">View All Students</a>
+            </div>            
+        </section>
+
+        <section class="container">            
+            <div class="row d-flex justify-content-center mb-5">
+                <div class="col-lg-6 text-center mx-5 px-5">
+                    <h1>Some Students Feedback</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus ea praesentium aliquid mollitia assumenda minima repudiandae illo, ullam maxime?
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <img src="images/comma.png" alt="">
+                        <p>*****</p>
+                    </div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                    <div>                        
+                        <img src="images/student/student-5.png" alt="">
+                        <div>
+                            <h5>Faheem Hasan</h5>
+                            <p>UI Designer</p>
+                        </div>                        
+                    </div>                    
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <img src="images/comma.png" alt="">
+                        <p>*****</p>
+                    </div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                    <div>                        
+                        <img src="images/student/student-6.png" alt="">
+                        <div>
+                            <h5>Jerin Khan</h5>
+                            <p>Graphic Designer</p>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row d-flex justify-content-center mb-5">
+                <div class="col-lg-6 text-center mx-5 px-5">
+                    <h1>Frequently Asked Questions</h1>
+                    <p>
+                        Some popular frequently asked questions and their answers are here. It might be helpful for you.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-8 accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What are the differences between flexbox and grid?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What is the differences between Bootstrap and Tailwind?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What is CSS box model?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        What is cemantic tag?
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+
+        <section class="container d-none d-lg-block d-xl-block">
+            <div class="row d-flex justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <h1>Trusted by over 800+ companies</h1>                    
+                </div>
+                <p class="text-center mt-3">
+                    <span class="px-4"><img src="images/company/company-1.png" alt=""></span>
+                    <span class="px-4"><img src="images/company/company-2.png" alt=""></span>
+                    <span class="px-4"><img src="images/company/company-3.png" alt=""></span>
+                    <span class="px-4"><img src="images/company/company-4.png" alt=""></span>
+                    <span class="px-4"><img src="images/company/company-5.png" alt=""></span>
+                    <span class="px-4"><img src="images/company/company-6.png" alt=""></span>
+                </p>
+            </div>
+        </section>        
+    </main>
+    <footer>
+        <section class="footer-area">
+            <div class="row d-flex justify-content-center mb-5">
+                <div class="col-lg-6 mx-5 px-5">
+                    <div class="text-center">
+                        <h2>BeCoder</h2>
+                        <address>26/1, Rajballavpur, Sherpur,<br>Bangladesh</address>
+                    </div>
+                    <div class="footer-menu">
+                        <ul class="d-flex justify-content-center">
+                            <li class="list-unstyled px-1"><a class="text-decoration-none" href="">Privacy Policy</a></li>
+                            |<li class="list-unstyled px-1 pe-5"><a class="text-decoration-none" href="">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-icon">
+                        <ul class="d-flex justify-content-center">
+                            <li class="list-unstyled px-3"><a href="https://www.youtube.com/c/MonabberHossain"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="list-unstyled px-3"><a href="https://www.facebook.com/monabber.hossain/"><i class="fa-brands fa-facebook-square"></i></a></li>
+                            <li class="list-unstyled px-3"><a href="https://www.instagram.com/monabbermunai/"><i class="fa-brands fa-instagram-square"></i></a></li>                
+                            <li class="list-unstyled px-3"><a href="https://twitter.com/HossainMonabber"><i class="fa-brands fa-twitter-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
     <!-- Bootstrap CDN Link: JS file -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
